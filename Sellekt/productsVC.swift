@@ -93,7 +93,7 @@ class productsVC: BaseViewController_rafrral ,UICollectionViewDataSource,UIColle
         //  NSString  *post = [NSString stringWithFormat:@"http://test.tranzporthub.com/sellekt/vendor_listing.php?shipping_vendor_id=%@&latitude=%@&longitude&=%@&sort_by=A_Z&vendor_business_name_search_keyword=&category_id=&subcategory_id=&vendor_start_limit=0&vendor_end_limit=100",[[NSUserDefaults standardUserDefaults]stringForKey:@"venderStr"],[[NSUserDefaults standardUserDefaults]stringForKey:@"lati" ],[[NSUserDefaults standardUserDefaults]stringForKey:@"longi" ] ];
         //  let url = NSString(format:"http://test.tranzporthub.com/sellekt/vendor_listing.php?shipping_vendor_id=%@&latitude=%f&longitude=%f&offer_start_limit=0&offer_end_limit=100&pwu_start_limit=0&pwu_end_limit=100&flag=1",defaults.value(forKey:"venderArr") as! CVarArg,defaults.float(forKey:"lati"),defaults.float(forKey:"longi") ) as String
         
-    //    http://test.tranzporthub.com/sellekt/listing_vendor_product.php?vendor_id=1&display_type=&discount_percentage=&category_id=&subcategory_id=&=&search_keyword=&sort_by=A_Z&start_limit=0&end_limit=3
+
          var vender_str:NSString = ""
         
                if self.vender_id == 0
@@ -165,12 +165,6 @@ class productsVC: BaseViewController_rafrral ,UICollectionViewDataSource,UIColle
                             self.subProductArrMiddelCollectionView.reloadData()
 
                         }
-                        
-                        
-                        
-                        
-                        
-                        
                     }
                     else
                     {

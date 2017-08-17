@@ -422,9 +422,6 @@ var allCellsText = [String]()
         
         gallaryAction.setValue(gal_image, forKey: "image")
         
-//        let subview = cancelAction.view.subviews.first! as UIView
-//        let alertContentView = subview.subviews.first! as UIView
-//        alertContentView.backgroundColor =  UIColor.yellow
         // Add the actions
         picker.delegate = self
         alert.addAction(cameraAction)
