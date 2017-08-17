@@ -1697,7 +1697,7 @@
 				TargetAttributes = {
 					7E5CFB8B1E8679CD0008FF68 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6THKXM7NCJ;
+						DevelopmentTeam = MR2PX4Y62Y;
 						ProvisioningStyle = Automatic;
 					};
 					7E5CFB9F1E8679CF0008FF68 = {
@@ -2523,11 +2523,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: nikhilboriwale300@gmail.com (Q4Z976Q3S8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6THKXM7NCJ;
+				DEVELOPMENT_TEAM = MR2PX4Y62Y;
 				INFOPLIST_FILE = Sellekt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appziatech.Sellekt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.Sellekt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2542,11 +2542,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: nikhilboriwale300@gmail.com (Q4Z976Q3S8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6THKXM7NCJ;
+				DEVELOPMENT_TEAM = MR2PX4Y62Y;
 				INFOPLIST_FILE = Sellekt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appziatech.Sellekt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.Sellekt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
