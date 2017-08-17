@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController!.setNavigationBarHidden(true, animated:true)
+        self.tabBarController?.hidesBottomBarWhenPushed = true
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
