@@ -171,9 +171,8 @@ class MenuViewController_rafrral: UIViewController ,UITableViewDelegate, UITable
         let cell = tableView.dequeueReusableCell(withIdentifier: "idCellNormal", for: indexPath) as! CustomCell
         
        // if currentCellDescriptor["cellIdentifier"] as! String == "idCellNormal" {
-        
-                cell.textLabel?.text = currentCellDescriptor as? String
-         cell.detailTextLabel?.text = ""
+        cell.textLabel?.text = currentCellDescriptor as? String
+        cell.detailTextLabel?.text = ""
             
 //            if let secondaryTitle = currentCellDescriptor["secondaryTitle"] {
 //                cell.detailTextLabel?.text = secondaryTitle as? String

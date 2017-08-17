@@ -42,7 +42,6 @@ class FavVCViewController: UIViewController , UITableViewDataSource,UITableViewD
         view.addSubview(self.activityIndicator)
         self.navigationController?.navigationBar.backItem?.title = ""
         self.navigationController?.navigationBar.tintColor = UIColor.black
-        // navigationController!.setNavigationBarHidden(true, animated:true)
         
         loadData()
 

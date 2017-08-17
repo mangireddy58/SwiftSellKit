@@ -23,8 +23,6 @@ class FAVCellTableViewCell: UITableViewCell {
         imgfavProduct.layer.masksToBounds=true
         imgfavProduct.layer.borderWidth=0.5
         imgfavProduct.layer.borderColor = UIColor.lightGray.cgColor
-        
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
