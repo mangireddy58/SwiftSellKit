@@ -196,8 +196,7 @@ var allCellsText = [String]()
                             dictNew.setValue("1", forKey: "quantity" )
                             dictNew.setValue(self.path, forKey: "index_path" )
                             dictNew.setValue(true, forKey: "isSelected" )
-                            
-                            //  product_name
+                        
                             
                             self.productArr.add(dictNew)
                         }
@@ -328,15 +327,7 @@ var allCellsText = [String]()
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {   //delegate method
                      textField.resignFirstResponder()
-//        let dictNew:NSMutableDictionary = [:]
-//        
-//        dictNew.setValue(1, forKey: "quotation_details_id" )
-//        dictNew.setValue( textField.text, forKey: "product_name" )
-//        dictNew.setValue(1, forKey: "quantity" )
-//        
-//        //  product_name
-//        
-//        self.productArr.add(dictNew)
+
 
         
         return true
